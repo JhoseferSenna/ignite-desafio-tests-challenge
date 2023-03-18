@@ -9,6 +9,7 @@ const statementRouter = Router();
 const getBalanceController = new GetBalanceController();
 const createStatementController = new CreateStatementController();
 const getStatementOperationController = new GetStatementOperationController();
+const createTransferController = new CreateStatementController();
 
 statementRouter.use(ensureAuthenticated);
 
